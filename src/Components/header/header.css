@@ -1,0 +1,86 @@
+body {
+	background: #eeeeee;
+	font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+	font-size: 14px;
+	background: #000625;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-bottom: 1px solid #d6d6d6;
+	box-shadow: 0 0 4px rgba(0,0,0,.1);		
+}
+.navbar .navbar-brand {
+	color: #555;
+	padding-left: 0;
+	font-size: 20px;
+	padding-right: 50px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+}
+.navbar .navbar-brand b {
+	color: #f04f01;
+}
+.navbar .navbar-nav a {
+	font-size: 96%;
+	font-weight: bold;		
+	text-transform: uppercase;
+}
+.navbar .navbar-nav a.active {
+	color: #f04f01 !important;
+	background: transparent !important;
+}
+.search-box input.form-control, .search-box .btn {
+	font-size: 14px;
+	border-radius: 2px !important;
+}
+.search-box .input-group-append {
+	padding-left: 4px;		
+}
+.search-box input.form-control:focus {
+	border-color: #f04f01;
+	box-shadow: 0 0 8px rgba(240,79,1,0.2);
+}
+.search-box .btn-danger, .search-box .btn-danger:active {
+	font-weight: bold;
+	background: #f04f01 !important;
+	border-color: #f04f01;
+	text-transform: uppercase;
+	min-width: 90px;
+}
+.search-box .btn-danger:hover, .search-box .btn-danger:focus {
+	background: #eb4e01 !important;
+	box-shadow: 0 0 8px rgba(240,79,1,0.2);
+}
+.search-box .btn span {
+	transform: scale(0.9);
+	display: inline-block;
+}
+.navbar .nav-item.open > a {
+	background: none !important;
+}
+.navbar .dropdown-menu {
+	border-radius: 1px;
+	border-color: #e5e5e5;
+	box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.navbar .dropdown-menu a, .navbar .dropdown-menu a:active {
+	color: rgb(255, 255, 255);
+	padding: 8px 20px;
+	font-size: 13px;
+  	background: #fff;
+}
+.navbar .dropdown-menu a:hover, .navbar .dropdown-menu a:focus {
+	color: rgb(255, 255, 255);
+  	background: #f8f9fa;
+}
+@media (min-width: 992px){
+	.form-inline .input-group .form-control {
+		width: 225px;			
+	}
+}
+@media (max-width: 992px){
+	.form-inline {
+		display: block;
+	}
+}
